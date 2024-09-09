@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 45vw;
+    height: auto;
+    max-width: 300px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 2.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.search-bar {
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 2%;
+    padding-left: 35px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 2.1vh;
+}
+
+.search-bar i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.8vh;
+    color: #888;
+}
+
+.hourly-container {
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hourly {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hour {
+    text-align: center;
+}
+
+.hour .icon {
+    font-size: 4.5vh;
+}
+
+.hour p {
+    font-size: 2.2vh;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+.detail {
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+
+.detail i {
+    font-size: 2.5vh;
+    margin-bottom: 5px;
+}
+
+.uv-icon {
+    color: #f4c542;
+}
+
+.wind-icon {
+    color: #6c757d;
+}
+
+.rain-icon {
+    color: #007bff;
+}
+
+.humidity-icon {
+    color: #80d4ff;
+}
+
+.detail-heading {
+    font-size: 2vh;
+    margin-bottom: 2px;
+}
+
+.detail-value {
+    font-size: 3vh;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+
+.suggestion {
+    background-color: #f9f9f9;
+    padding: 3%;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 2vh;
+    margin-top: 5px;
+    text-align: center;
+}
